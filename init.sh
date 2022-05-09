@@ -9,4 +9,6 @@ source ~.zshrc
 # fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.zshrc
 echo ">>> fzf install sucessfully"
